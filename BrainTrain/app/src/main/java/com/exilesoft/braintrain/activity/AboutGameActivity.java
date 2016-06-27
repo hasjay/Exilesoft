@@ -8,6 +8,7 @@ public class AboutGameActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //// TODO: 6/27/2016 Need to add game help text 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
