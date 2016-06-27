@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GameHomeActivity">
+    <item
+        android:id="@+id/action_hint"
+        android:orderInCategory="100"
+        android:title="Hint"
+        app:showAsAction="never"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_close"
+        android:orderInCategory="101"
+        android:title="Close"
+        app:showAsAction="never" />
+</menu>

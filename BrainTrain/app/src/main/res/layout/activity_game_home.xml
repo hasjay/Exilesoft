@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/brain_bg">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="New Game"
+        android:id="@+id/btnNewGame"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"
+        android:onClick="newGame"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Continue"
+        android:id="@+id/btnContinue"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"
+        android:onClick="continueGame"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="About"
+        android:id="@+id/btnAbout"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"
+        android:onClick="about"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Exit"
+        android:id="@+id/btnExit"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"
+        android:onClick="exit"/>
+</LinearLayout>

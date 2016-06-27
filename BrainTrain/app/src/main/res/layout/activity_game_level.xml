@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/lblLeval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Level!!!"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitle"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Novice"
+        android:id="@+id/btnNovice"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Easy"
+        android:id="@+id/btnEasy"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Medium"
+        android:id="@+id/btnMedium"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Guru"
+        android:id="@+id/btnGuru"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/colorButtonText"/>
+</LinearLayout>
