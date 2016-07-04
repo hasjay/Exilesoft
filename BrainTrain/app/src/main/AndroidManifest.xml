@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GamePlayActivity" />
+        <activity android:name=".GamePlayActivity" android:screenOrientation="portrait"/>
         <activity android:name=".GameLevelActivity" />
         <activity android:name=".GameResultActivity" />
         <activity android:name=".AboutGameActivity"></activity>
