@@ -17,6 +17,6 @@
     <item
         android:id="@+id/action_close"
         android:orderInCategory="101"
-        android:title="Close"
+        android:title="Exit"
         app:showAsAction="never" />
 </menu>

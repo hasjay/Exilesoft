@@ -68,6 +68,8 @@ public class GameLevelActivity extends AppCompatActivity implements View.OnClick
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
+        MenuItem close = menu.findItem(R.id.action_close);
+        close.setVisible(false);
         return true;
     }
 
